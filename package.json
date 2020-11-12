@@ -1,5 +1,5 @@
 {
-  "name": "css-portfolio",
+  "name": "11y",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -22,6 +22,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "jade": "^1.11.0",
+    "live-serve": "0.0.0",
     "node-sass": "4.12.0"
   },
   "devDependencies": {
