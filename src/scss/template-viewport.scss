@@ -1,0 +1,31 @@
+
+
+    @media only screen and (max-width: 800px) {
+        .molo {
+         
+        }
+    
+    }
+
+    @media screen and (max-width: 400px) {
+        .molo {
+            .row {
+                flex-flow: column wrap;
+            }
+            .col-8, .col-4 {
+                width: 100%;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .molo {
+            .row {
+                flex-flow: column wrap;
+            }
+            .col-8, .col-4, .col-2 {
+                width: 100%;
+            }
+        }
+      }
+
