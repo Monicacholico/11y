@@ -6,6 +6,28 @@ body {
 }
 
 .molo {
+    max-width: 800px;
+    margin: auto;
+    .skip a{
+        position: absolute;
+        left: 10000px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        background: white;
+        font-weight: bold;
+        display: block;
+        padding: 10px;
+        ;
+    }
+    .skip a:focus {
+        position: static;
+        width: auto;
+        height: auto;
+
+
+    }
     .section {
         padding: 90px 60px;
         font-family: Mercury Display, sans-serif;
@@ -101,7 +123,7 @@ body {
                     }
                 }
 
-                
+
             }
             &.white {
                 display: flex;
@@ -214,7 +236,7 @@ body {
         text-align: center;
         display: flex;
         justify-content: center;
-        
+
     }
     .initial-modal {
         padding: 1.5rem;
@@ -227,7 +249,7 @@ body {
     }
 
 
-    // MODAL 
+    // MODAL
     .modal-container {
         background: rgba(7, 23, 36, 0.4);
         display: block;
@@ -342,7 +364,7 @@ body {
         }
         &:focus {
             outline: 2px solid lightsteelblue;
-        }   
+        }
     }
 
     .modal-body {
@@ -387,7 +409,7 @@ body {
         padding: 16px 32px;
         width: 800px;
         margin-left: auto;
-        margin-right: auto; 
+        margin-right: auto;
     }
     .footer-btns {
        text-align: right;
@@ -549,7 +571,7 @@ button:focus {
     outline: 4px solid lime;
 }
 
-button:hover, button:focus{ 
+button:hover, button:focus{
     color: #fff;
     background-color: #0069d9;
     border-color: #0069d9;

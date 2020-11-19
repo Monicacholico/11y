@@ -31,3 +31,23 @@ function myFunction(str){
 
 var resultado = myFunction('moniiiiica');
 console.log(resultado);
+
+
+document.addEventListener('keydown', activeSideArrows);
+const lis = document.querySelectorAll('.el-main-nav');
+console.log(lis);
+const allLis = Array.prototype.slice.call(lis);
+console.log(allLis);
+
+
+function activeSideArrows(e) {
+    const target = e.target;
+    console.log(e.keyCode);
+    allLis.forEach( function (li) {
+        if(e.keyCode === 39) {
+            console.log('im the left arrow')
+            li.focus();
+        }
+    })
+}
+
