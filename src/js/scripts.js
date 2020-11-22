@@ -43,6 +43,7 @@ var resultado = myFunction('moniiiiica');
 console.log(resultado);
 
 
+<<<<<<< HEAD
 function anotherFunction(string) {
     const charMap = {};
     let maxVal = 1;
@@ -100,3 +101,23 @@ function arraywithFind(string) {
 }
 
 arraywithFind('monicaaaaaa');
+=======
+document.addEventListener('keydown', activeSideArrows);
+const lis = document.querySelectorAll('.el-main-nav');
+console.log(lis);
+const allLis = Array.prototype.slice.call(lis);
+console.log(allLis);
+
+
+function activeSideArrows(e) {
+    const target = e.target;
+    console.log(e.keyCode);
+    allLis.forEach( function (li) {
+        if(e.keyCode === 39) {
+            console.log('im the left arrow')
+            li.focus();
+        }
+    })
+}
+
+>>>>>>> e0caa2fea03240147c8353d174fa270706bf5d26
