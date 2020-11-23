@@ -43,7 +43,6 @@ var resultado = myFunction('moniiiiica');
 console.log(resultado);
 
 
-<<<<<<< HEAD
 function anotherFunction(string) {
     const charMap = {};
     let maxVal = 1;
@@ -101,7 +100,8 @@ function arraywithFind(string) {
 }
 
 arraywithFind('monicaaaaaa');
-=======
+
+
 document.addEventListener('keydown', activeSideArrows);
 const lis = document.querySelectorAll('.el-main-nav');
 console.log(lis);
@@ -120,4 +120,3 @@ function activeSideArrows(e) {
     })
 }
 
->>>>>>> e0caa2fea03240147c8353d174fa270706bf5d26
